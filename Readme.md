@@ -1,36 +1,35 @@
 # Modeling Speaker Networks: A relational graph from Quotebank
 
 Team DADA
-Authors : 
+Authors :
+
 - [Benchelabi, Salim](salim.benchelabi@epfl.ch)
 - [Emam, Ahmed](ahmed.emam@epfl.ch)
 - [Guirardel, Lucas](lucas.guirardel@epfl.ch)
-- [Marie, Geoffray ](geoffray.marie@epfl.ch)
+- [Marie, Geoffray](geoffray.marie@epfl.ch)
 
 ## Abstract
 
 An integral part of any news reporting is the use of quotes of people of interest. Quotes do not exist in isolation and therefore have underlying connection markers.  Quotes from different speakers are often grouped together, and some speakers refer to other speakers. What insights can these connections bring to us ?
 This project aims to explore the relationships between people quoted in the Quotebank dataset. Visualizing these relationships can give us an understanding of the networks and communities that are behind quotes, such as professional domains and fields of expertise, political orientation, and even like-mindedness. It’s a common human behavior to surround oneself with like-minded people, who reinforce one’s views. Is it possible to visualize these information bubbles ? And is it possible to create a meaningful network based on speakers and their unknown communities ?
 
-## Research Questions 
+## Research Questions
 
-More specifically, the aim of this project is to investigate the following research questions: 
+More specifically, the aim of this project is to investigate the following research questions:
 
 1. **What are the communities present amongst quoted speakers?**
-	We expect to observe communities matching to political parties as well as other areas of expertise and/or occupations: cinema, sports and sciences to name a few.
+We expect to observe communities matching to political parties as well as other areas of expertise and/or occupations: cinema, sports and sciences to name a few.
 
-
-    
 2. **How do influential events dictate how groups of people are quoted together?**
-	Here we will investigate how diversity of the communities and associated parameters mentioned above changed before and after the 2016 US Election, and during the COVID pandemic. 
-	Are communities from opposite parties linked more during election season?
-    Are scientists and politicians quoted together more often now than pre-pandemic? 
-3. **Do speakers primarily mention or quote others who they agree with ?**
-	Human behavior dictates that we associate ourselves with people we generally agree with, is this the case? Can we classify one’s neutrality by the polarity of their statements or who they quote?
-    
+Quotebank contains a lot of speakers from the worlds of sports and politics.
+We observe the variations of the relationships between these two worlds through an influential event, the 2018 FIFA World Cup.
 
+3. **Do journals give a voice only to their political sides ?**
+Politics is very polarizing, this is not news. But are news sites neutral enought to give a platform to opposing sides through their quotes ? Is the network of quotation more polarized or more well-mixed ?
 
-
+4. **How do different news sites contribute to the quotation landscape ?**
+Quotebank is constituted from quotes taken from a wide variety of websites : news aggregators, online version of tradidional newspapers, tabloids...
+We want to understand the differences in themes, style, and polarization between different types of news sites.
 
 ## Additional datasets
 

@@ -1,5 +1,4 @@
 # Modeling Speaker Networks: A relational graph from Quotebank
-## Milestone 2 - Project Proposal 
 
 Team DADA
 Authors : 
@@ -94,15 +93,17 @@ To identify clusters of speakers in our network we will use DBSCAN, as it's agno
 
 ## Team organization
 
-The team tasks are to be split according to the two data subsets we mentioned earlier in this proposal. Below are the tentative team organization with respect to tasks. 
+Eventually, team tasks were split according to the following:
 
-* Geoffray and Salim: Speakers quoted in the same article, investigate the communities behind them.
+* Geoffray: Data analysis, Data filtering, Graph 3D structure, Data story
+* Salim: Data processing, Graph Analysis, Data story
+* Lucas: Graph building, Graph 3D vizualisation
+* Ahmed: Jekyll website, Datastory, Graph 3D vizualisation
 
-* Ahmed and Lucas: Speakers who are referring to another speaker and corresponding sentiment analysis.
+## Data Story
 
-The investigation into the case studies with the 2016 US Election and the change in news quote networks due to the pandemic will then be performed as a team with tasks being separated at a later time.
-
-## Questions for TAs
-
+Our data story can be find at the following link: https://aemam022.github.io/
+We strongly encourage you to play with the graph ! You can look at the structure and at the nodes, move nodes, change the attribute to color...
+We hope you enjoy our data story.
 
 
